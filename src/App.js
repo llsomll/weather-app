@@ -80,7 +80,7 @@ function App() {
       getWeatherByCity();
       setAPIError("");
     }
-  }, [city]);
+  }, [city, getCurrentLocation, getWeatherByCity]);
 
   return (
     <div>
