@@ -1,0 +1,28 @@
+.search-style {
+    background: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.search-style:focus{
+    background: transparent;
+}
+
+#celsius {
+    font-size: 70px;
+}
+
+.button-style {
+    margin: 2px;
+    border-radius: 30px;
+    /* border: 1px solid grey; */
+    border: none;
+    color: grey;
+}
+
+.button-style:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: grey;
+    border: none;
+}
