@@ -10,7 +10,7 @@ This web application provides real-time weather information for the current loca
 * Loading Spinner: A loading spinner is displayed while data is being fetched.
  
 ## URL
-https://forcarstnow12.netlify.app
+https://forecarstnow12.netlify.app
 
 ## Technologies
 * React
