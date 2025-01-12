@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { format } from 'date-fns';
 
 function CurrentDateTime() {
-  const [dateTime, setDateTime] = useState(format(new Date(), 'HH:MM - eeee, MMMM dd yy'));
+  const [dateTime, setDateTime] = useState(format(new Date(), 'eeee, MMMM dd yy'));
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setDateTime(format(new Date(), 'HH:MM - eeee, MMMM dd yy'));
+      setDateTime(format(new Date(), 'eeee, MMMM dd yy'));
     }, 1000);
 
     return () => clearInterval(intervalId);
