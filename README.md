@@ -12,6 +12,10 @@ This web application provides real-time weather information for the current loca
 ## URL
 https://forecastnow12.netlify.app
 
+## Watch the Demo
+
+[Watch the video on YouTube](https://youtu.be/RPFzWB2nTxc?si=b6YVtigtxfazVtCf)
+
 ## Technologies
 * React
 * HTML5
@@ -19,4 +23,5 @@ https://forecastnow12.netlify.app
 * JavaScript
 * OpenWeatherMap API
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RPFzWB2nTxc?si=W9HrUgCsWsilazpd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+https://youtu.be/RPFzWB2nTxc?si=b6YVtigtxfazVtCf
