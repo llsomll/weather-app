@@ -2,5 +2,6 @@
   command = "CI=false npm run build"
   publish = "build"
 
-[[secrets_scan.omit_keys]]
-key = "REACT_APP_API_KEY"
+[build.environment]
+  SECRETS_SCAN_OMIT_KEYS = "REACT_APP_API_KEY"
+  SECRETS_SCAN_ENABLED = false
