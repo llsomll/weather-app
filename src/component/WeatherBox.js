@@ -18,7 +18,7 @@ const WeatherBox = ({ weather }) => {
         <div className="weather-box">
             <h5>Forecast</h5>
             <div>
-                <h3>&nbsp;{weather.name}</h3>
+                <h3>&nbsp;{weather.name}, {weather.sys.country}</h3>
                 <div className="weather-info">
                     <img
                         src={weatherIcon ? `http://openweathermap.org/img/wn/${weatherIcon}.png` : ''}
