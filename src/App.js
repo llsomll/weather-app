@@ -23,7 +23,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [apiError, setAPIError] = useState("");
 
-  const cities = ['seoul', 'london', 'new york', 'sydney'];
+  const cities = ['seoul', 'sheffield', 'london', 'new york', 'sydney', 'hanoi', 'cape town', 'havana', 'mexico city'];
 
 
   const getCurrentLocation = () => {
