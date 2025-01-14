@@ -23,5 +23,3 @@ https://forecastnow12.netlify.app
 * JavaScript
 * OpenWeatherMap API
 
-
-https://youtu.be/RPFzWB2nTxc?si=b6YVtigtxfazVtCf
